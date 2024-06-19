@@ -23,7 +23,7 @@ Install the required packages:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Usage
 To start the application, run:
 
