@@ -21,36 +21,38 @@ git clone https://github.com/AbhijitChallapalli/Kafka.git
 ```
 Install the required packages:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-Usage
+
+## Usage
 To start the application, run:
 
-bash
-Copy code
+```bash
 streamlit run app.py
+```
 Navigate to http://localhost:8501 in your web browser to view the application.
 
-How It Works
+## How It Works
 Upload a Resume: You can upload a resume in .txt or .pdf format.
 Paste a Job Description: Input the text of a job description into the provided text area.
 Calculate Similarity: Click the 'Calculate Similarity' button to see how similar the uploaded resume is to the job description provided.
-Learning Outcomes
+
+## Learning Outcomes
 Understand the implementation of TF-IDF.
 Learn how cosine similarity can be used to measure text similarity.
 Explore basic text preprocessing techniques in NLP.
-Contributing
+
+## Contributing
 Contributions to this project are welcome! Please consider the following ways you can contribute:
 
-Reporting a bug
+## Reporting a bug
 Discussing the current state of the code
 Submitting a fix
 Proposing new features
 Becoming a maintainer
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Acknowledgments
+## License
+This project is licensed under the MIT License 
+
+## Acknowledgments
 This project was inspired by a desire to merge practical utility with educational opportunities in the field of data science and NLP.
-Thanks to all the contributors who spend time to improve this project.
